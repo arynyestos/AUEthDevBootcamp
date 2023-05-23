@@ -8,7 +8,7 @@ const Header = ({ isEthereumSupported }) => {
         ERC-20 Token Indexer
       </Heading>
       <Text>
-        Plug in an address to see all of its ERC-20 token balances! Default search is connected wallet!
+        Plug in an address or ENS to see all of its ERC-20 token balances! Default search is connected wallet!
       </Text>
       {!isEthereumSupported && (
       <Box p={4} bg="yellow.200" color="red" textAlign="center">

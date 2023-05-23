@@ -72,7 +72,7 @@ function App() {
     try {
       const config = {
         apiKey: import.meta.env.ALCHEMY_API_KEY,
-        network: selectedNetwork,
+        network: Network.ETH_MAINNET,
       };
       const alchemy = new Alchemy(config);
       const resolved = await alchemy.core.resolveName(name);
