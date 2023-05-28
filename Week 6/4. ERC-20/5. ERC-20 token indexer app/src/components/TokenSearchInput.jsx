@@ -36,7 +36,7 @@ const TokenSearchInput = ({ onType, onSearch, connectedAccount, isValidAddress, 
       </Button>
       {!isValidAddress && (
         <Box p={4} bg="yellow.200" color="red" textAlign="center">
-          <Text>Please, input a valid address.</Text>
+          <Text>Please, input a valid address or ENS.</Text>
         </Box>
       )}
     </>
