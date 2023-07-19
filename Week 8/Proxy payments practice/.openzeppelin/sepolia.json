@@ -1,0 +1,243 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x94f350Af67E0cCF82f7Ed3499b789f6522e83C38",
+    "txHash": "0x97353acfb77bf480545002d965a13abdac42c3cb4772794846f084d4c5fb2c2b"
+  },
+  "proxies": [
+    {
+      "address": "0xBC65bE732af96dA3B2B16E7D8A8Dc5d56f620cae",
+      "txHash": "0x89a7196066124c10881cb09140f947582d6662e663cd61203770fff4799056b3",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xCFcC6E32B95c86d311Bc93ca34De5e46e46ede76",
+      "txHash": "0x0c9a3b61f5d990ef4dbd8aba1ae514721adeada10c679e76c15050c04fd49411",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xfC40939ffE55F2Cf2D165B82cfbC42F7CA922A51",
+      "txHash": "0xb501a25f79d08dce73c9db689cb6a8c4d10134553ec7d44995069aab6b308bae",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x844b78bdC893817cBfBa51C1E2941dbA9f2be502",
+      "txHash": "0xf17bc0dadf9e2e4d2c85a2c8f7d22670cfcdc140ae5ebce02903847b441409f8",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x28130B3D137484982904532B62FbaC6A8ac25F72",
+      "txHash": "0x66c65ebdcc2d196aae5c7c11bb01ca60f3bba3f9d7f82daf74bc43d01e9cc379",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xf626CDFE5B89a41A1dDcE1437e860AFbE2743f34",
+      "txHash": "0x9796e4d4b593543ede50fc5fb390243541816b26f855f2cf2772aa66038cd130",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x35FFFa0D88f704e3F8e5C82D768fdC383a85Beb5",
+      "txHash": "0x5a12c98e1c167574891f9de580caeaf2634445129e5ec944ada639ccb34b853c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x4350906Ceb5b4D1315df496B8e2867d6c4f065d1",
+      "txHash": "0x36a0a4d92dc12b7f27ea39fc512c6dc452169410f8575f035cef75fcf9fcce39",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "dfbc2ae8c822b2bec943d79fc4dfad565e4dfd2ffe7b20043b6a60d020e78a39": {
+      "address": "0xf574b4a394c57FAD334eA5CF444fe2d49f8E2edD",
+      "txHash": "0x16cfcf8c10b76a2c3591cf16a47405c643677ca37d1dc8d76d842acc095f9dca",
+      "layout": {
+        "solcVersion": "0.8.19",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
+          },
+          {
+            "label": "workersCities",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_address,t_string_storage)",
+            "contract": "TempAdjustedPayments",
+            "src": "contracts\\TempAdjustedPayments.sol:8"
+          },
+          {
+            "label": "workerAddresses",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "TempAdjustedPayments",
+            "src": "contracts\\TempAdjustedPayments.sol:9"
+          },
+          {
+            "label": "tempSevilla",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint256",
+            "contract": "TempAdjustedPayments",
+            "src": "contracts\\TempAdjustedPayments.sol:10"
+          },
+          {
+            "label": "tempMadrid",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_uint256",
+            "contract": "TempAdjustedPayments",
+            "src": "contracts\\TempAdjustedPayments.sol:11"
+          },
+          {
+            "label": "priceETH",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_uint256",
+            "contract": "TempAdjustedPayments",
+            "src": "contracts\\TempAdjustedPayments.sol:12"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_string_storage)": {
+            "label": "mapping(address => string)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "ee20772210c4e762685fff4ebc9c02151df86f10c93caf03b6b7a3a854ec8a57": {
+      "address": "0x5d4E78687a12D0b5d602f0C13BfF310D66542Dac",
+      "txHash": "0x287007a152fafa69115cdebbe87adf6177c5cd46a0c0d7dbd51decf705664780",
+      "layout": {
+        "solcVersion": "0.8.19",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
+          },
+          {
+            "label": "workersCities",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_address,t_string_storage)",
+            "contract": "TempAdjustedPaymentsV2",
+            "src": "contracts\\TempAdjustedPaymentsV2.sol:8"
+          },
+          {
+            "label": "workerAddresses",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "TempAdjustedPaymentsV2",
+            "src": "contracts\\TempAdjustedPaymentsV2.sol:9"
+          },
+          {
+            "label": "tempSevilla",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint256",
+            "contract": "TempAdjustedPaymentsV2",
+            "src": "contracts\\TempAdjustedPaymentsV2.sol:10"
+          },
+          {
+            "label": "tempMadrid",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_uint256",
+            "contract": "TempAdjustedPaymentsV2",
+            "src": "contracts\\TempAdjustedPaymentsV2.sol:11"
+          },
+          {
+            "label": "priceETH",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_uint256",
+            "contract": "TempAdjustedPaymentsV2",
+            "src": "contracts\\TempAdjustedPaymentsV2.sol:12"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_string_storage)": {
+            "label": "mapping(address => string)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
