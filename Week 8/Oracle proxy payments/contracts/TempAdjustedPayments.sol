@@ -18,9 +18,6 @@ contract TempAdjustedPayments is Initializable {
     address private ethPriceContractAddress;
     address private tempFeelContractAddress;
     address private upKeepContractAddress;
-    // uint public paymentAmount;
-    // uint public wageFactor;
-    // uint public lastTempFetched ;
 
     modifier onlyOwner() {
         require(msg.sender == owner, "Only contract owner can call this function");
@@ -59,6 +56,32 @@ contract TempAdjustedPayments is Initializable {
         workersCities[workerAddress] = city;
     }
 
+    // To be implemented in future versions of the contract
+
+    // function deregisterWorker(address workerAddress) external onlyOwner {
+    //     bool found = false;
+    //     uint workerIndexToRemove;
+
+    //     for (uint i = 0; i < workerAddresses.length; i++) {
+    //         if (workerAddresses[i] == workerAddress) {
+    //             found = true;
+    //             workerIndexToRemove = i;
+    //             break;
+    //         }
+    //     }
+
+    //     require(found, "Worker not found");
+
+    //     // Remove the worker from the array by swapping with the last element and then reducing the array size
+    //     workerAddresses[workerIndexToRemove] = workerAddresses[workerAddresses.length - 1];
+    //     workerAddresses.pop();
+
+    //     // Delete the worker's city from the mapping
+    //     delete workersCities[workerAddress];
+    // }
+
+
+
     function payWorkersAuto() external onlyUpKeepContract {
 
         lastWorkerPayedIndex = 0;        
@@ -82,8 +105,6 @@ contract TempAdjustedPayments is Initializable {
 
     function callbackTempFeel(uint _tempFeel) external onlyTempFeelContract {
         uint wageFactor = 10 ** 18;
-
-        // lastTempFetched = _tempFeel;
 
         if (_tempFeel > baseTemperature) { // only increase wage in hot days
             wageFactor += (_tempFeel - baseTemperature) * wageFactor / 15000; // 15000 so that wage is 20% higher at 50ºC
