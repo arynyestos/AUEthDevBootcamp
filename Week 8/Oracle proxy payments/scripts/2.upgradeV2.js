@@ -1,6 +1,6 @@
 const { ethers, upgrades } = require('hardhat');
 
-const proxyAddress = '0x4350906Ceb5b4D1315df496B8e2867d6c4f065d1'
+const proxyAddress = '0x014211CA975a62fB4c3c74001fBd7e6D5Fc92a11'
 
 async function main() {
   console.log("Original TempAdjustedPayments(proxy) address:", proxyAddress)
