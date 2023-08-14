@@ -1758,6 +1758,170 @@
           }
         }
       }
+    },
+    "d4b77f4bf47e90c04c41998c315c62d3c92d99c22e8921688783e846b252f2e6": {
+      "address": "0x6d239858e10B085c39e38eA6C8b5C765991765d8",
+      "txHash": "0x129d1d29cd7a9b627040fa127061d935cb131b7e14b14a0f175447b9f25e3de4",
+      "layout": {
+        "solcVersion": "0.8.19",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
+          },
+          {
+            "label": "getTempFeelContract",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_contract(GetTempFeel)3240",
+            "contract": "TempAdjustedPaymentsV2",
+            "src": "contracts\\TempAdjustedPaymentsV2.sol:9"
+          },
+          {
+            "label": "getEthPriceContract",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_contract(GetEthPrice)3056",
+            "contract": "TempAdjustedPaymentsV2",
+            "src": "contracts\\TempAdjustedPaymentsV2.sol:10"
+          },
+          {
+            "label": "workersCities",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_mapping(t_address,t_string_storage)",
+            "contract": "TempAdjustedPaymentsV2",
+            "src": "contracts\\TempAdjustedPaymentsV2.sol:11"
+          },
+          {
+            "label": "workerAddresses",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "TempAdjustedPaymentsV2",
+            "src": "contracts\\TempAdjustedPaymentsV2.sol:12"
+          },
+          {
+            "label": "baseTemperature",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_uint16",
+            "contract": "TempAdjustedPaymentsV2",
+            "src": "contracts\\TempAdjustedPaymentsV2.sol:13"
+          },
+          {
+            "label": "baseWageUSD",
+            "offset": 2,
+            "slot": "4",
+            "type": "t_uint8",
+            "contract": "TempAdjustedPaymentsV2",
+            "src": "contracts\\TempAdjustedPaymentsV2.sol:14"
+          },
+          {
+            "label": "exchangeRateETHUSD",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_uint256",
+            "contract": "TempAdjustedPaymentsV2",
+            "src": "contracts\\TempAdjustedPaymentsV2.sol:15"
+          },
+          {
+            "label": "lastWorkerPayedIndex",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_uint8",
+            "contract": "TempAdjustedPaymentsV2",
+            "src": "contracts\\TempAdjustedPaymentsV2.sol:16"
+          },
+          {
+            "label": "owner",
+            "offset": 1,
+            "slot": "6",
+            "type": "t_address",
+            "contract": "TempAdjustedPaymentsV2",
+            "src": "contracts\\TempAdjustedPaymentsV2.sol:17"
+          },
+          {
+            "label": "ethPriceContractAddress",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_address",
+            "contract": "TempAdjustedPaymentsV2",
+            "src": "contracts\\TempAdjustedPaymentsV2.sol:18"
+          },
+          {
+            "label": "tempFeelContractAddress",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_address",
+            "contract": "TempAdjustedPaymentsV2",
+            "src": "contracts\\TempAdjustedPaymentsV2.sol:19"
+          },
+          {
+            "label": "upKeepContractAddress",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_address",
+            "contract": "TempAdjustedPaymentsV2",
+            "src": "contracts\\TempAdjustedPaymentsV2.sol:20"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(GetEthPrice)3056": {
+            "label": "contract GetEthPrice",
+            "numberOfBytes": "20"
+          },
+          "t_contract(GetTempFeel)3240": {
+            "label": "contract GetTempFeel",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_string_storage)": {
+            "label": "mapping(address => string)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint16": {
+            "label": "uint16",
+            "numberOfBytes": "2"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
     }
   }
 }
