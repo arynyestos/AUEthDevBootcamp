@@ -1,3 +1,3 @@
-# Automatic Payments System front end
+# SummerPay front end
 
-This is the front end for the Automatic Payments System, made using React and Chakra UI.
+This is the front end for SummerPay: Smart Temperature-Adjusted Payments System, made using React and Chakra UI.

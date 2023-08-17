@@ -15,8 +15,11 @@ const Header = () => {
       boxShadow="md"            
       mb={4}              
     >
-      <Heading fontSize={56}>
+      {/* <Heading fontSize={56}>
         Automatic Payments System Management App
+      </Heading> */}
+      <Heading fontSize={44}>
+        SummerPay: Smart Temperature-Adjusted Payments System
       </Heading>
     </Flex>
   );
