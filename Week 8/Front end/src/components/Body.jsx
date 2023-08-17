@@ -39,7 +39,7 @@ const Body = () => {
           </GridItem>
         </Grid>
         <Text align="center" fontWeight="bold" fontSize="xl" mb={4}>Last transaction result</Text>
-        <Box p={4} borderWidth="10px" borderRadius="20px" overflowY="auto" height="60px" backgroundColor="white">
+        <Box p={4} borderWidth="10px" borderRadius="20px" overflowY="auto" height="100px" backgroundColor="white">
           {resultMessage && (
             <Text>{resultMessage}</Text>
           )}
