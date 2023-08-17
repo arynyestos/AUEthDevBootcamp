@@ -26,3 +26,12 @@ Together, these technical accomplishments coalesce into a cutting-edge system th
 On top of a fully functional back end, SummerPay's user interface allows the company to add and remove employees from the contract, as well as set the Chainlink automation contract address, pay manually (e.g. if the Chainlink upkeep contract has run out of LINK and action needs to be taken) and withdraw the funds from the payments contract (e. g. if the company shuts down).
 
 ![SummerPay Front end](https://github.com/arynyestos/AUEthDevBootcamp/assets/33223441/ad6a7fe7-9a1f-4e3c-b122-5ef14220bc79)
+
+## Testnet App
+
+To prove that SummerPay is a fully functional system, it was deployed on the Sepolia testnet:
+
+- [Payments (proxy) contract](https://sepolia.etherscan.io/address/0x014211CA975a62fB4c3c74001fBd7e6D5Fc92a11)
+- [Get ETH price contract](https://sepolia.etherscan.io/address/0x802B31EedF9781053d410144F5a589FAf53A9F8b)
+- [Get cities' temperatures contract](https://sepolia.etherscan.io/address/0x0Ac8ae1b5D2DF7AC252DcAcAeecB72dAf26d2c89)
+- [Chainlink upkeep contract](https://sepolia.etherscan.io/address/0xd6ecA3326fa9b186D62F02DD989913EF1f7c799E)
