@@ -25,7 +25,7 @@ Together, these technical accomplishments coalesce into a cutting-edge system th
 
 On top of a fully functional back end, SummerPay's user interface allows the company to add and remove employees from the contract, as well as set the Chainlink automation contract address, pay manually (e.g. if the Chainlink upkeep contract has run out of LINK and action needs to be taken) and withdraw the funds from the payments contract (e. g. if the company shuts down).
 
-![SummerPay Front end](https://github.com/arynyestos/AUEthDevBootcamp/assets/33223441/ad6a7fe7-9a1f-4e3c-b122-5ef14220bc79)
+![SummerPay Front end](https://github.com/arynyestos/AUEthDevBootcamp/assets/33223441/1fc03690-4a5b-4f49-8383-643b4818c1ad)
 
 ## Testnet App
 
