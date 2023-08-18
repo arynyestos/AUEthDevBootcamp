@@ -81,7 +81,7 @@ export function paymentsContractHandlers() {
     const { success, error } = await paymentsContractInterface.payWorkersMan();
 
     if (success) {
-      setResultMessage('Payment successful');
+      setResultMessage('Payment order successfully sent');
     } else {
       setResultMessage(`Payment failed: ${error}`);
     }

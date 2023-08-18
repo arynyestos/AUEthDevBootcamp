@@ -6,6 +6,7 @@ import SetUpkeepForm from './SetUpkeepForm';
 import ManualPaymentButton from './ManualPaymentButton';
 import WithdrawEthButton from './WithdrawEthButton';
 import { paymentsContractHandlers } from '../utils/paymentsContractHandlers';
+import useLatestPayments from '../hooks/useLatestPayments';
 
 const Body = () => {
   const {
@@ -17,6 +18,8 @@ const Body = () => {
     handlePayManually,
     handleWithdrawEth
   } = paymentsContractHandlers();
+
+  const latestPayments = useLatestPayments();
 
   return (
     <Flex width="70%" mt={4} p={4} backgroundColor="#f5f5f5" borderRadius="8px" boxShadow="md" marginBottom="20px" justifyContent="center" alignItems="center">
@@ -38,12 +41,15 @@ const Body = () => {
             </Flex>
           </GridItem>
         </Grid>
-        <Text align="center" fontWeight="bold" fontSize="xl" mb={4}>Last transaction result</Text>
+        <Text align="center" fontWeight="bold" fontSize="xl" mb={4}>Latest events</Text>
         <Box p={4} borderWidth="10px" borderRadius="20px" overflowY="auto" height="100px" backgroundColor="white">
           {resultMessage && (
             <Text>{resultMessage}</Text>
           )}
-        </Box>
+          {latestPayments.map((payment, index) => (
+            <Text key={index} mt={2}>{payment}</Text>
+          ))}
+        </Box>       
       </Box>
 
     </Flex>
