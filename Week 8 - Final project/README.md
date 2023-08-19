@@ -18,12 +18,11 @@ Automation was a key focus, culminating in the integration of a Chainlink upkeep
 
 <p align="justify">
 Together, these technical accomplishments coalesce into a cutting-edge system that redefines how payments are conducted in the modern workplace. SummerPay stands as a testament to our commitment to leveraging blockchain, Chainlink oracles, and innovative architecture to create a truly transformative solution for both employees and employers.
-<<<<<<< HEAD
 </p>
 
 ## Graphical User Interface
 
-On top of a fully functional back end, SummerPay's user interface allows the company to add and remove employees from the contract, as well as set the Chainlink automation contract address, pay manually (e.g. if the Chainlink upkeep contract has run out of LINK and action needs to be taken) and withdraw the funds from the payments contract (e. g. if the company shuts down).
+On top of a fully functional back end, SummerPay's user interface allows the company to add and remove employees from the contract, as well as set up the Chainlink automation contract address (so that only this contract can initiate payments), pay manually (e.g. if the Chainlink upkeep contract has run out of LINK and action needs to be taken) and withdraw the funds from the payments contract (e. g. if the company shuts down).
 
 ![SummerPay Front end](https://github.com/arynyestos/AUEthDevBootcamp/assets/33223441/1fc03690-4a5b-4f49-8383-643b4818c1ad)
 
@@ -35,3 +34,9 @@ To prove that SummerPay is a fully functional system, it was deployed on the Sep
 - [Get ETH price contract](https://sepolia.etherscan.io/address/0x802B31EedF9781053d410144F5a589FAf53A9F8b)
 - [Get cities' temperatures contract](https://sepolia.etherscan.io/address/0x0Ac8ae1b5D2DF7AC252DcAcAeecB72dAf26d2c89)
 - [Chainlink upkeep contract](https://sepolia.etherscan.io/address/0xd6ecA3326fa9b186D62F02DD989913EF1f7c799E)
+
+## Video presentation
+
+Below you can see the video presentation for the Alchemy University Ethereum Developer Bootcamp final project submission.
+
+https://github.com/arynyestos/AUEthDevBootcamp/assets/33223441/db8b6cfc-d193-4c2c-9c49-060bcd8e6db0
