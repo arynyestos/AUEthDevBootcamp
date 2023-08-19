@@ -35,7 +35,7 @@ To prove that SummerPay is a fully functional system, it was deployed on the Sep
 - [Get cities' temperatures contract](https://sepolia.etherscan.io/address/0x0Ac8ae1b5D2DF7AC252DcAcAeecB72dAf26d2c89)
 - [Chainlink upkeep contract](https://sepolia.etherscan.io/address/0xd6ecA3326fa9b186D62F02DD989913EF1f7c799E)
 
-## Video presentation
+## Video Presentation
 
 Below you can see the video presentation for the Alchemy University Ethereum Developer Bootcamp final project submission.
 
