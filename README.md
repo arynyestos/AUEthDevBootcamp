@@ -24,5 +24,6 @@ I'm thrilled to have completed this high-quality course, and I'm excited to appl
 
 #Blockchain #Ethereum #Developer #Certification #BlockchainDeveloper #Web3 #SmartContracts #NFTs #Solidity #Crypto #Decentralization #WebDevelopment #Chainlink #Oracle #SummerPay
 
-https://github.com/arynyestos/AUEthDevBootcamp/assets/33223441/f2dd1988-2899-4fad-8b38-83800aad2d9d
+https://github.com/arynyestos/AUEthDevBootcamp/assets/33223441/5a98d0ab-7800-4201-a2b1-46e25bf6772b
+
 
