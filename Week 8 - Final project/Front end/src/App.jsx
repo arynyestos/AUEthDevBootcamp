@@ -5,14 +5,13 @@ import Body from './components/Body';
 import Footer from './components/Footer';
 
 function App() {
+
   return (
-    <Box w="100vw" direction="column" align="center" justify="center" height="100vh" justifyContent="center" backgroundColor="#f0eded">
-      <Flex direction="column" align="center" justify="center" height="100vh" justifyContent="center">
+      <Flex direction="column" align="center" w="100vw" h="100vh" backgroundColor="#f0eded">
         <Header />
         <Body />
         <Footer />
       </Flex>
-    </Box>
   );
 }
 

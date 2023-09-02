@@ -67,7 +67,8 @@ button:focus-visible {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
   background-color: #e0e0e0;
   border-radius: 5px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
@@ -86,5 +87,40 @@ button:focus-visible {
   .loading-spinner {
     width: 100px;
     height: 100px;
+  }
+}
+
+.my-heading {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .my-heading {
+    font-size: 2.1rem;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .my-heading {
+    font-size: 2.75rem;
+  }
+}
+
+.big-button {
+  height: 2rem;
+  width: 4rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .big-button {
+    height: 7.5rem;
+    width: 10rem;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .big-button {
+    height: 7.5rem;
+    width: 12rem;
   }
 }

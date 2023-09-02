@@ -5,8 +5,8 @@ function SetUpkeepForm({ handleSetUpkeepAddress, isProcessing }) {
   const [upkeepAddress, setUpkeepAddress] = useState('');
 
   return (
-    <>
-        <Text align="center" fontWeight="bold" fontSize="xl" mb={4}>
+    <Box>
+        <Text align="center" fontWeight="bold" fontSize="xl" mb={'0.5rem'}>
             Set up Chainlink automation contract
         </Text>
         <Box className='container' style={styles.container}>
@@ -25,13 +25,13 @@ function SetUpkeepForm({ handleSetUpkeepAddress, isProcessing }) {
             {isProcessing ? 'Processing...' : 'Set Upkeep Contract'}
         </Button>
         </Box>
-    </>
+    </Box>
   );
 }
 
 const styles = {
   button: {
-    padding: '10px 20px',
+    padding: '0.7rem',
   },
 };
 

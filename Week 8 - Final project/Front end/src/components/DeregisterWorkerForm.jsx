@@ -5,8 +5,8 @@ function DeregisterWorkerForm({ handleDeregisterWorker, isProcessing }) {
   const [workerAddress, setWorkerAddress] = useState('');
 
   return (
-    <>
-        <Text align="center" fontWeight="bold" fontSize="xl" mb={4} mt="11px">
+    <Box>
+        <Text align="center" fontWeight="bold" fontSize="xl" mb={'0.5rem'}>
             Remove employee from the contract
         </Text>
         <Box className='container' style={styles.container}>
@@ -25,16 +25,14 @@ function DeregisterWorkerForm({ handleDeregisterWorker, isProcessing }) {
             {isProcessing ? 'Processing...' : 'Remove Worker'}
         </Button>
         </Box>
-    </>
+    </Box>
+    // </>
     );
 }
 
 const styles = {
-  container: {
-    marginBottom: '20px',
-  },
   button: {
-    padding: '10px 20px',
+    padding: '0.7rem',
   },
 };
 

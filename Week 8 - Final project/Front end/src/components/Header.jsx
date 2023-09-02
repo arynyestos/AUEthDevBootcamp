@@ -6,19 +6,17 @@ const Header = () => {
     <Flex 
       width="70%"
       alignItems="center"
-      justifyContent="center"
       flexDirection="column"
       backgroundColor="#878383" 
       color="white"             
-      p={4}                     
-      borderRadius="8px"       
+      p={'0.25rem'}                     
+      borderRadius="0.5rem"       
       boxShadow="md"            
-      mb={4}              
+      mb={'0.25rem'}
+      mt={'3rem'}
     >
-      {/* <Heading fontSize={56}>
-        Automatic Payments System Management App
-      </Heading> */}
-      <Heading fontSize={44}>
+      {/* <Heading fontSize={'2.75rem'}> */}
+      <Heading className="my-heading">
         SummerPay: Smart Temperature-Adjusted Payments System
       </Heading>
     </Flex>
