@@ -31,6 +31,7 @@ On top of a fully functional back end, SummerPay's user interface allows the com
 To prove that SummerPay is a fully functional system, it was deployed on the Sepolia testnet:
 
 - [Payments (proxy) contract](https://sepolia.etherscan.io/address/0x014211CA975a62fB4c3c74001fBd7e6D5Fc92a11)
+- [Payments (implementation) contract](https://sepolia.etherscan.io/address/0xB1Bc827C6F8201E089c1710CcdFedC866A36432E)
 - [Get ETH price contract](https://sepolia.etherscan.io/address/0x802B31EedF9781053d410144F5a589FAf53A9F8b)
 - [Get cities' temperatures contract](https://sepolia.etherscan.io/address/0x0Ac8ae1b5D2DF7AC252DcAcAeecB72dAf26d2c89)
 - [Chainlink upkeep contract](https://sepolia.etherscan.io/address/0xd6ecA3326fa9b186D62F02DD989913EF1f7c799E)
