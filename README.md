@@ -24,7 +24,7 @@ I'm thrilled to have completed this high-quality course, and I'm excited to appl
 
 
 <p align="center">
-  <img src="https://github.com/arynyestos/AUEthDevBootcamp/assets/33223441/5a98d0ab-7800-4201-a2b1-46e25bf6772b" style="width: 80vw;">
+  <video src="https://github.com/arynyestos/AUEthDevBootcamp/assets/33223441/5a98d0ab-7800-4201-a2b1-46e25bf6772b" style="width: 80vw;">
 </p>
 
 
