@@ -22,8 +22,10 @@
 
 I'm thrilled to have completed this high-quality course, and I'm excited to apply these skills in real-world blockchain projects. 🌐💼 Thank you, Alchemy University, for this incredible learning journey!
 
-#Blockchain #Ethereum #Developer #Certification #BlockchainDeveloper #Web3 #SmartContracts #NFTs #Solidity #Crypto #Decentralization #WebDevelopment #Chainlink #Oracle #SummerPay
 
-https://github.com/arynyestos/AUEthDevBootcamp/assets/33223441/5a98d0ab-7800-4201-a2b1-46e25bf6772b
+<p align="center">
+  <img src="https://github.com/arynyestos/AUEthDevBootcamp/assets/33223441/5a98d0ab-7800-4201-a2b1-46e25bf6772b" style="width: 80vw;">
+</p>
+
 
 
