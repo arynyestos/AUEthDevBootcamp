@@ -28,8 +28,8 @@ I'm thrilled to have completed this high-quality course, and I'm excited to appl
 </p>
     
 <p align="center">
-  <a href="https://github.com/arynyestos/AUEthDevBootcamp/blob/main/assets/33223441/5a98d0ab-7800-4201-a2b1-46e25bf6772b">
-    <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*-zO5GC_wdGUDuOb6R-IelA.jpeg" alt="Video Thumbnail" width="50%" height="auto">
+  <a href="https://github.com/arynyestos/AUEthDevBootcamp/assets/33223441/5a98d0ab-7800-4201-a2b1-46e25bf6772b">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/220px-Image_created_with_a_mobile_phone.png" alt="Video Thumbnail" width="50%" height="auto">
   </a>
 </p>
 
